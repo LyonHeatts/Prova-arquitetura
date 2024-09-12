@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    font-family:"inter";
+   
+    
+    
+}
+
+
+ #menu-superior{
+    background-color: #303030;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    
+ }   
+    
+    
+
+#titulo-menusuperior{
+    margin-left: 50px;
+    margin-top: 100px;
+    color: white;
+    font-size: 57px;
+    
+    
+    
+    
+    
+}
+
+#texto-menusuperior{
+    margin-left:45px ;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+#menu-informacional{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 50px 0px 50px 100px;
+    padding: 30px;
+    font-size: 20px;
+       
+}
+
+.grande{
+font-weight: bold;
+font-size: 32px;
+}
+
+#Menu{
+    font-family: "inter";
+    font-weight: 300;
+    font-size: 24px;
+    
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+
+}
+
+.Texto{
+    font-weight: 500;
+    font-size: 40px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+#imagem{
+    margin-right: 150px;
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+
+#Formulario{
+    background-color: #303030;
+text-align: center;
+padding-top: 70px;
+color: white;
+font-size: 15px;
+padding-bottom: 50px;
+}
+
+input{
+    width: 508px;
+height: 60px;
+margin: 20px;
+border:0px;
+border-radius: 10px;
+font-family: "Raleway";
+font-weight: 500
+;
+
+}
+
+button{
+    background-color: #C07212;
+    margin-top: 30px;
+    width: 300px;
+    height: 70px;
+    border: 0px;
+    border-radius: 10px;
+    font-family:"raleway" ;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+    
+}
+button:hover{
+    background-color: #d18d39;
+    transform:translateY(-7px) ;
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px  #00000086;
+}
+
+
